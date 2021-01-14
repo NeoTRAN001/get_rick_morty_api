@@ -1,0 +1,17 @@
+{
+  "name": "rick-morty",
+  "version": "0.0.0",
+  "description": "Webcomponent rick-morty following open-wc recommendations",
+  "author": "rick-morty",
+  "license": "MIT",
+  "scripts": {
+    "start": "web-dev-server --app-index index.html --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "lit-element": "^2.0.1",
+    "lit-html": "^1.0.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.0.12"
+  }
+}
